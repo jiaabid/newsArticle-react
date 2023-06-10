@@ -1,0 +1,705 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,Helvetica,sans-serif;
+    /* overflow-x: hidden; */
+  
+}
+a{
+    text-decoration: none;
+}
+.navSlide{
+    width: 100%;
+    height: 90vh;
+    background-color: #a40808;
+}
+.collapse{
+    margin-top: -16px;
+    margin: 0;
+}
+.form-select{
+    font-size: 14px ;
+
+  }
+.headNav{
+    font-size: 10px;
+    padding: 0 ;
+    border-bottom-color: #dcdcdc;
+    border-top-color: #dcdcdc;
+    background-color: #f0f0f0;
+    box-shadow: inset 0 -3px 10px -2px #dcdcdc;
+    display: block;
+}
+.nav-link{
+    padding: 3px ;
+}
+.nav-item a:hover{
+background-color: #fff ;
+}
+.dropdown-menu{
+    border: none;   
+    border-radius: 0 0 5px 5px;
+    border-bottom-color: #dcdcdc;
+    box-shadow: inset 0 -3px 10px -2px #dcdcdc;
+    margin-top: 0 !important;
+}
+.dropdown-menu li{
+    font-size: 10px;
+}
+.brand{
+    /* background-color: blueviolet; */
+    /* padding: 10px 0 10px 0; */
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand h1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: -16px;
+    letter-spacing: -4px;
+    /* position: relative; */
+}
+.menu{
+    display: none;
+}
+
+.header
+{
+
+    border-bottom: 3px solid #e31111;
+}
+.navbar-toggler{
+    outline: none !important;
+    border: none !important;
+    color: transparent;
+    margin-right: -15px;
+}
+.navbar-toggler-icon{
+    color: #a40808 !important;
+}
+/* .responsiveNav{
+    width: 100% ;
+    height: 100vh;
+    margin: 0 !important;
+} */
+.dotStyle{
+    color: #CD0404;
+    padding: -10px;
+    margin: -20px -10px;
+    /* margin: 0;
+    position: absolute;
+    right: 10px; */
+}
+.filter{
+    background-color: #414042;
+    color: #fff;
+    
+}
+filter:hover{
+    background-color: #999898;
+}
+.brand span{ 
+        color:  #999898;
+        font-size: 12px;
+        padding: 0 4px;
+}
+.media{
+    display: flex;
+    border-left: 1px solid  #dcdcdc ;
+}
+.mediaWrapper{
+    visibility: visible;
+    margin-top: -50px;
+}
+.mediaIcon{
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+}
+/* .mediaWrapper{
+    display: block;
+} */
+.mediaIconWrap{
+    background-color: rgb(9, 112, 181);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+.mediaContentHeading{
+    position: relative;
+}
+.mediaContentHeading::after{
+    position: absolute;
+    content: " >";
+    padding:0 5px ;
+}
+.mediaContent{
+    padding:10px 0;
+}
+
+.mediaWrapper h3{
+    color: #414042;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.mediaWrapper p{
+    color:  #999898;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.mediaWeather{
+    padding: 10px ;  
+    border-left: 1px solid #dcdcdc;
+}
+.mediaWeatherInfo{
+    border-top:  1px solid #dcdcdc;
+    display: flex;
+}
+.weatherIcon{
+    padding:1px 10px;
+}
+.weatherContent{
+    border-left: 1px solid #dcdcdc;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weatherContent h5 {
+    color: #414042;
+    padding: 5px 10px;
+    margin-bottom: 0;
+}
+.weatherContent span{
+font-size: 16px;
+color: #999898 ;
+padding: 5px 0;
+
+}
+.cloudIcon{
+  color:  #999898 ;
+  
+}
+.mainNavWrap{
+    background-color: #fff; 
+    border-top: 1px solid  #dcdcdc;
+    /* border-bottom: 3px solid #e31111; */
+}
+.weatherWrap{
+    visibility: hidden;
+}
+.mainNav{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.mainNav a:hover{
+color: #CD0404 !important ;
+}
+.nav-link.active{
+    color: #CD0404 !important;
+}
+/* .mainNav a:focus{
+    color: #CD0404 !important ;
+    } */
+    .siderWrap{
+        padding-top: 20px;
+    }
+.siderWrap h1{
+color: #a7a9ac;;
+font-weight: 600;
+letter-spacing: 0;
+font-size: 28px;
+
+
+}
+.latestNews{
+    padding: 10px 0 15px;
+    border-top: 1px dotted #dcdcdc;
+    border-bottom:  1px dotted #dcdcdc;
+}
+.latestNews h2 {
+color: #414042;
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 4px;
+}
+.latestNews span{
+    color: #CD0404;
+    font-size: 14px;
+}
+.dropdown
+{
+    margin-bottom: 10px;
+}
+
+.newsUpdate{
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content:space-between;
+    /* justify-content: flex-start; */
+     flex-wrap: wrap;
+
+
+}
+.newsUpdate .card{
+    border-radius: 0;
+margin:0 10px 10px 0;
+
+border: none;
+}
+.newsUpdate img{
+    border-radius: 0;
+    height: 200px;
+}
+.newsUpdate h3{
+color: #CD0404;
+font-weight: 600;
+font-size: 14px;
+}
+.newsUpdate h5{
+font-size: 20px;
+color: #414042;
+font-weight: 600;
+}
+.newsUpdate .card-body{
+ padding-left: 0;
+}
+.persHeading{
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+.moreUpdate {
+    display: flex;
+    justify-content: space-between;
+    /* border-top: 1px solid #dcdcdc; */
+    padding-bottom: 20px ;
+    flex-wrap: wrap;
+}
+.newsWrap{
+        border-top: 1px solid #dcdcdc;
+        padding: 20px 0;
+}
+.moreUpdate .card{
+    margin-bottom: 10px;
+}
+.moreUpdate img{
+    border-radius: 0;
+    height: 100px;
+}
+.moreUpdate h5{
+
+    font-size: 12px;
+    color: #414042;
+    font-weight: 600;
+}
+.moreUpdate h3{  
+color: #CD0404;
+font-weight: 600;
+font-size: 14px; 
+}
+.sponsorSection{
+    padding: 20px 0;
+    border-top: 1px solid #dcdcdc;
+}
+.sponsorImg{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsorImg img{
+ width: 100%;
+ height: 200px;
+
+}
+.sponsorContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+.sponsorContent p{
+font-size: 12px;
+color: #999898;
+}
+.sponsorContent h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #383738;
+}
+
+/* SIGNUP */
+.mainDiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:  rgb(74, 64, 55);
+    /* background-image: url("https://lynnhuber.com/wp-content/uploads/2020/11/blog-post-type-2-news-current-events.jpg"); */
+
+}
+.centerDiv{
+    width: 500px;
+color: #fff;
+border-radius: 5px;
+padding: 20px   ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color:  rgb(74, 64, 55);
+
+}
+.centerDiv h1{
+    font-weight: 600;  
+text-align: center;
+margin-bottom: 40px;
+/* color: #a40808; */
+
+
+}
+.centerDiv button{
+    background-color: #a40808;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    color: #fff;
+    float: right;
+    margin-top: 5px;
+}
+.centerDiv button:hover{
+    
+    background-color: #CD0404;
+}
+.centerDiv p{
+    font-size: 10px; 
+    margin-top: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+.centerDiv a{
+    font-weight: 600;
+    cursor: pointer;
+    color: #a40808;
+}
+/* .signImg{
+    width: 80%;
+    height: 100vh;
+} */
+.signImg img{
+    width: 100%;
+    height: 100vh;   
+    object-fit:cover;
+    object-position:inherit;
+
+}
+label{
+    margin-bottom: 0 !important;
+    font-size: 12px;
+    font-weight: 600;
+     }
+     
+/* responsive */
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+/* 
+// Small devices (landscape phones, 576px and up) */
+@media (max-width: 992px) { 
+    .persHeading{
+        padding-left: 10px;
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;   
+        justify-content: flex-start;
+    }
+    .signImg img{
+        width: 100%;
+        height: auto;
+    }
+    .centerDiv{
+        width:100%;
+        height: 100vh;
+    padding: 10px  50px   ;
+    }
+    .centerDiv h1{
+        font-weight: 600; 
+    margin-bottom: 20px;
+    }
+    .centerDiv p{
+        font-size: 10px;
+    }
+    label{
+   margin-bottom: 0 !important;
+   font-size: 12px;
+  
+    }
+    
+    input{
+        padding:3px 6px !important;
+        margin-bottom: 0px !important;
+    }
+
+    /* app */
+    .filter{
+        padding: 2px 4px;
+        background-color: transparent;
+        border: 2px solid #414042;
+        color: #414042;
+        /* font-weight: 600; */
+    }
+    .siderWrap{
+        border-top: 1px solid #dcdcdc;
+        padding: 4px 8px;
+    }
+    .moreUpdate{
+        padding: 10px 10px 20px;
+    }
+    .moreUpdate img{
+        width: 130px;
+    }
+    .moreUpdate .card-body{
+        padding: 0;
+        padding-left:  14px;
+     }
+     .moreUpdate h3{
+        text-transform: uppercase;
+        font-size: 12px;
+     }
+     .moreUpdate h5{
+        font-size:14px ;
+     }
+     .moreNewsCard{
+        width: 100% !important;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        padding: 20px 0;
+       margin-bottom: 0 !important;
+        border-bottom: 1px solid #dcdcdc;
+        
+      }
+ 
+       .newsUpdate{
+        padding: 0; 
+      
+        display: flex;
+        
+    }
+    .newsUpdate .card-body{
+        padding: 10px 10px 20px 10px;
+        width: 100%;
+       
+       }
+    .newsUpdate .card{
+    /* margin: 4px;
+    margin-left: 0; */
+    width: 100% !important;
+    margin: 0 0 20px;
+    border-bottom: none;
+    }
+.newsUpdate img{
+    height: auto;
+}
+    .newsUpdate h3{
+    font-size: 12px;
+    text-transform:uppercase;
+    }
+    .newsUpdate h5{
+    font-size: 18px;
+    }
+    /* .mainNav{
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    } */
+  .container{
+    width: 100%;
+    padding: 0;
+    /* overflow-x: hidden; */
+  }
+ .sponsorContent{
+    padding: 10px 20px ;
+ }
+ .brand{
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    align-items:flex-start;
+    /* background-color: #a40808; */
+margin-bottom: 5px;
+margin-top: -10px;
+/* border-bottom: 3px solid #e31111; */
+background-color: #fff;
+ }
+  .brand h1{
+font-size: 30px;
+margin: 0px;
+  }
+  .navbar-toggler-icon{
+    vertical-align: 0%;
+padding: 0;
+  }
+
+  .navbar-toggler{
+    padding: 0 ;
+    padding-right: 10px;
+  }
+  .headNav{
+    display: none;
+  }
+
+  .menu{
+    display: block;
+  }
+  .mainNavWrap{
+    display: none;
+  }
+  .mainNav a:focus{
+    color: #CD0404;
+  }
+.mediaWrapper{
+    /* background-color: violet; */
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.weatherContent{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+}
+.degree{
+    display: flex;
+}
+
+
+.mediaWeatherInfo{
+    border-top: none;
+ /* background-color: violet; */
+/* margin-right: 16px; */
+position: absolute;
+right: 2px;
+top: 0;
+
+}
+.weatherIcon{
+    padding: 0px 4px  ;
+   
+}
+.weatherContent{
+    border-left: 1px solid #dcdcdc;
+    padding: 0 4px;
+
+    /* background-color: #a40808; */
+}
+.weatherContent h3{
+    font-size: 10px;
+    margin-bottom: 0;
+    color:#414042;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0 4px;
+ }
+.weatherContent h5 {
+    color: #414042;
+    padding: 2px ;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.weatherContent span{
+font-size: 12px;
+color: #999898 ;
+padding: 0;
+
+}
+.weatherWrap{
+    visibility: visible;
+    display: none;
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+/* background-color: yellowgreen; */
+padding: 0;
+height: 40px;
+position: relative;
+}
+  .hidden{
+   visibility: hidden;
+  }
+  .show{
+    display: block;
+  }
+}
+/* 
+// Medium devices (tablets, 768px and up) */
+@media screen and (min-width:577px ) { 
+    /* .mainDiv{
+        flex-direction: row;   
+    }
+    .signImg img{
+        width: 100%;
+        object-fit:cover;
+        object-position:inherit;
+       
+    }
+    .centerDiv{
+        width: 700px;
+    padding: 20px ;
+    }
+    .centerDiv h1{
+        font-weight: 600; 
+    margin-bottom: 20px;
+    }
+    .centerDiv p{
+        font-size: 10px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    label{
+   margin-bottom: 0 !important;
+   font-size: 12px;
+    }
+    input{
+        padding:3px 6px !important;
+        margin-bottom: 0px !important;
+    } */
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
